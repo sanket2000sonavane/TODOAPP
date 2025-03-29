@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="dist/index.js" type="module"></script>
+    <title>Todo App</title>
+    <style>
+      #list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically (if parent allows) */
+    margin: auto;
+    padding: 0;
+    width: 50%; /* Adjust as needed */
+}
+
+li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+}
+    </style>
+</head>
+<center></center>
+<body>
+  <ul id="list"></ul>
+  <form id="new-task-form">
+    <input type="text" id="new-task-title">
+  <button id="new-task-submit">Add Task</button>
+  </form>
+</body>
+</center>
+</html>
