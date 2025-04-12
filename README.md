@@ -3,3 +3,4 @@
 - [Calculator](./Calculator)
 - [AWS-Lambda-TS](./AWS-Lambda-TS)
 - [LinkedList-TS](./LinkedList)
+- [typescriptbasics](./typescriptbasics)
